@@ -1,0 +1,11 @@
+.photogrid {
+    display: grid;
+    grid-template-columns: 32fr 32fr 32fr;
+    list-style: none;
+    margin-left: 1.3em;
+    margin-right: 1.1em;
+}
+
+.photo {
+    width: 95%;
+}
