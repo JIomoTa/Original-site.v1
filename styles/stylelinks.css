@@ -2,57 +2,54 @@
     box-sizing: border-box;
 }
 
-.htmlstartgrid figure {
-    margin-top: 0;
-}
-
-.startwebimg {
-    display: block;
-    width: 450px;
-    border-radius: 30px;
-    padding-bottom: 5px;
-}
-@media (min-width: 1280px){
-    .startwebimg {
-        width: 650px;
-    }
-}
-@media (max-width: 900px){
-    .startwebimg {
-        width: 350px;
-    }
-}
-@media (max-width: 700px){
-    .startwebimg {
-        width: 250px;
-    }
-}
-
-.htmlstartgrid {
+.linkgrid {
     display: grid;
     grid-template-columns: 40fr 60fr;
     margin-left: 1.3em;
     margin-right: 1.1em;
 }
-
-.htmlstartgrid figcaption a {
-    display: table;
-    text-transform: lowercase;
-    font-style: oblique;
-    margin: 0 auto;
-    font-size: medium;
-    color: antiquewhite;
-    padding-bottom: 0;
-    padding-top: 10px;
-}
-.htmlstartgrid figcaption a[href^="https"]::after {
-    display: inline-block;
-    background-image: url(../images/external-link.png);
-    content: "";
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 6px;
-    width: 14px;
-    height: 14px;
-}
+    .linkgrid__figure_img {
+        display: block;
+        width: 450px;
+        border-radius: 30px;
+        padding-bottom: 5px;
+    }
+    @media (min-width: 1280px){
+        .linkgrid__figure_img {
+            width: 650px;
+        }
+    }
+    @media (max-width: 900px){
+        .linkgrid__figure_img {
+            width: 350px;
+        }
+    }
+    @media (max-width: 700px){
+        .linkgrid__figure_img {
+            width: 250px;
+        }
+    }
+        .linkgrid__figure {
+            margin-top: 0;
+        }
+            .linkgrid__figure_figcaption a{
+                display: table;
+                text-transform: lowercase;
+                font-style: oblique;
+                margin: 0 auto;
+                font-size: medium;
+                color: antiquewhite;
+                padding-bottom: 0;
+                padding-top: 10px;   
+            }
+                .linkgrid__figure_figcaption a[href^="https"]::after {
+                    display: inline-block;
+                    background-image: url(../images/external-link.png);
+                    content: "";
+                    background-position: center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    margin-left: 6px;
+                    width: 14px;
+                    height: 14px;
+                }
