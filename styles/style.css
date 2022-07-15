@@ -14,6 +14,7 @@ html {
     font-family: "RobotoSlab";
     font-size: 20px;
     color: rgb(255, 255, 255);
+    letter-spacing: 0.6px;
 }
 
 body {
@@ -66,14 +67,14 @@ body {
                         }
 
 .h1title {
-    padding: 50px 0 50px 0;
+    padding: 50px 0 90px 0;
     text-align: center;}
     @media (max-width: 900px){
         .h1title {
             font-size: 1.5em;}}
 
 .h2title {
-    padding: 50px 0 70px;
+    padding: 50px 0 90px;
     text-align: center;
     }
 
