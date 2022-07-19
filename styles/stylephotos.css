@@ -1,4 +1,4 @@
-.photogrid {
+.photogrid__columns {
     display: grid;
     grid-template-columns: 32fr 32fr 32fr;
     list-style: none;
@@ -6,6 +6,6 @@
     margin-right: 1.1em;
 }
 
-.photogrid_list_photo {
+.photogrid__item-photo {
     width: 95%;
 }

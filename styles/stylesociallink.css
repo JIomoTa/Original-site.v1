@@ -1,54 +1,55 @@
 .sociallink {
-    list-style: none;   
+    font-size: 2em;
+    display: grid;
+    gap: 20px;
 }
-    .sociallink a {
-        font-size: 2em;
-        text-decoration: none;
-        font-family: "RobotoSlab";
-        color: aliceblue;
-    }
-    .sociallink a:hover {
-        color: rgb(1, 20, 36);
-    }
-    .sociallink li a:active {
-        color: rgb(218, 211, 7);
-    }
-        .sociallink__telegramlink a[href^="https"]::before {
-            display:inline-flex;
-            background-image: url(../images/icon-telegram.png);
-            content: "";
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            margin-left: 6px;
-            width: 100px;
-            height: 100px;
-            padding-right: 40px;
-            vertical-align: middle;
-        }
-        .sociallink__vklink a[href^="https"]::before {
-            display:inline-flex;
-            background-image: url(../images/icon-vk.png);
-            content: "";
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            margin-left: 6px;
-            width: 100px;
-            height: 100px;
-            padding-right: 40px;
-            vertical-align: middle;
-        }
-        .sociallink__youtubelink a[href^="https"]::before {
-            display:inline-flex;
-            background-image: url(../images/icon-youtube.png);
-            content: "";
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            margin-left: 6px;
-            width: 100px;
-            height: 100px;
-            padding-right: 40px;
-            vertical-align: middle;
-        }
+.sociallink a {
+    text-decoration: none;
+    font-family: "RobotoSlab";
+    color: aliceblue;
+}
+.sociallink a:hover {
+    color: rgb(1, 20, 36);
+}
+.sociallink a:active {
+    color: rgb(218, 211, 7);
+}
+.sociallink__telegram[href^="https"]::before {
+    display:inline-flex;
+    background-image: url(../images/icon-telegram.png);
+    content: "";
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+    width: 100px;
+    height: 100px;
+    padding-right: 40px;
+    vertical-align: middle;
+}
+.sociallink__vk[href^="https"]::before {
+    display:inline-flex;
+    background-image: url(../images/icon-vk.png);
+    content: "";
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+    width: 100px;
+    height: 100px;
+    padding-right: 40px;
+    vertical-align: middle;
+}
+.sociallink__youtube[href^="https"]::before {
+    display:inline-flex;
+    background-image: url(../images/icon-youtube.png);
+    content: "";
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+    width: 100px;
+    height: 100px;
+    padding-right: 40px;
+    vertical-align: middle;
+}
