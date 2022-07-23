@@ -1,61 +1,61 @@
 * {
     box-sizing: border-box;
 }
-.linkgrid__subtitle {
+.link-item__subtitle {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 50px;
 }
-.linkgrid__column {
-    display: grid;
-    grid-template-columns: 40fr 60fr;
-    margin-left: 1.3em;
-    margin-right: 1em;
+.link-item__container {
+    display: flex;
 }
 @media (max-width:900px) {
-    .linkgrid__column {
+    .link-item__container {
         display: block;
     }
 }
-.linkgrid__figure-img {
+.link-item__figure-img {
     display: block;
     width: 450px;
     border-radius: 30px;
     padding-bottom: 5px;
 }
 @media (max-width:900px) {
-    .linkgrid__column {
+    .link-item__container {
         display: block;
     }
 }
 @media (min-width: 1280px){
-    .linkgrid__figure-img {
+    .link-item__figure-img {
         width: 600px;
+        display: flex;
+        justify-content: center;
     }
 }
 @media (max-width: 900px){
-    .linkgrid__figure-img {
+    .link-item__figure-img {
         width: 550px;
-        margin-left: 5%;
-        margin-right: 5%;
+        display: flex;
+        justify-content: center;
     }
 }
 @media (max-width: 700px){
-    .linkgrid__figure-img {
+    .link-item__figure-img {
         width: 450px;
-        margin-left: 5%;
-        margin-right: 5%;
+        display: flex;
+        justify-content: center;
     }
 }
 
-.linkgrid__text {
+.link-item__text {
     padding-top: 5%;
 }
 
-.linkgrid__figure {
+.link-item__figure {
+    
     margin-top: 0;
 }
-.linkgrid__figure-figcaption a{
+.link-item__figure-figcaption a{
     display: table;
     text-transform: lowercase;
     font-style: oblique;
@@ -65,7 +65,7 @@
     padding-bottom: 0;
     padding-top: 10px;   
 }
-.linkgrid__figure-figcaption a[href^="https"]::after {
+.link-item__figure-figcaption a[href^="https"]::after {
     display: inline-block;
     background-image: url(../images/external-link.png);
     content: "";

@@ -1,0 +1,42 @@
+.linkgrid {
+  width:800px;
+  border: 1px dashed black;
+}
+.linkgrid__item {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .linkgrid__item {
+    flex-direction: column;
+  }
+}
+.linkgrid__figure {
+  width: 400px;
+}
+.linkgrid__figure-image {
+  width: 100%;
+}
+.linkgrid__figure-figcaption{
+  text-align: center;
+}
+.linkgrid__text {
+  text-align: center;
+}
+
+
+
+
+
+
+
+<div class="linkgrid">
+  <div class="linkgrid__item">
+    <figure class="linkgrid__figure">
+      <img class="linkgrid__figure-image" src="https://www.placecage.com/800/600"></img>
+      <figcaption class="linkgrid__figure-figcaption">cage zbs </figcaption>
+    </figure>
+    <p class="linkgrid__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda maiores doloribus tenetur, earum harum quam ex soluta, magnam iusto magni minus cum? Quidem hic quaerat earum nesciunt cum maxime necessitatibus!Lorem
+    </p>
+  </div>
+</div>
