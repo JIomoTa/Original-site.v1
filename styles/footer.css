@@ -1,0 +1,70 @@
+.footer {
+    font-size: 1.3em;
+    border-top: 2px sold rgb(54, 51, 51);
+    width: 90%;
+    gap: 15px;
+    margin: 0 auto;
+    display: flex;
+    border-top: 3px solid rgba(0, 0, 0, 0.3);
+    margin-top: 55px;
+    padding: 45px 0;
+}
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+}
+.footer__link-item {
+    text-decoration: none;
+    font-family: "RobotoSlab";
+    color: aliceblue;
+}
+.footer__link-item:hover {
+    color: rgb(1, 20, 36);
+}
+.footer__link-item:active {
+    color: rgb(218, 211, 7);
+}
+.footer__link-item::before {
+    display:inline-flex;
+    content: "";
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+    width: 50px;
+    height: 50px;
+    padding-right: 40px;
+    vertical-align: middle;
+}
+.footer__link-item_telegram::before {
+    background-image: url(../images/icon-telegram.png);
+}
+.footer__link-item_vk::before {
+    background-image: url(../images/icon-vk.png);
+    content: "";
+}
+.footer__link-item_youtube::before {
+    background-image: url(../images/icon-youtube.png);
+    content: "";
+}
+.footer__email {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+}
+.footer__email-title {
+    font-size: 1.2em;
+    margin: 0;
+}
+.footer__email-link {
+    padding-top: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer__email-link:hover {
+    color: rgb(1, 20, 36);
+}
+.footer__email-link:active {
+    color: rgb(218, 211, 7);
+}
